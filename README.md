@@ -50,3 +50,30 @@
 Попробуйте проанализировать сетевое взаимодействие целевого клиента с сервером. В качестве сообщения клиент должен передать хэш SHA-256. Воспользуйтесь в этот раз не hashcat, а предвычисленными таблицами для хэшей, например [crackstation.net](https://crackstation.net) для подбора захэшированного сообщения. Если  не получится через [crackstation.net](https://crackstation.net), то поробуйте через [hashes.com](https://hashes.com/)
 
 </details>
+
+## Решение
+
+<details>
+<summary>Детали пеерхвата текстового сообщения.</summary>
+
+1\. Подготовка файлов.
+
+![scripts downloading](image.png)
+
+2\. Запуск сервера 
+
+![server](image-1.png)
+
+3\. Запрос к серверу
+
+![client](image-2.png)
+
+4\. Список пакетов в Wireshark 
+
+![Wireshark](image-3.png)
+
+5\. Перехваченное текстовое сообщение
+
+![alt text](image-4.png)
+
+</details>
