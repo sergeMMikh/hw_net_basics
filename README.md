@@ -10,20 +10,20 @@
 
 1\. Откройте виртуальную машину, в поисковой строке введите `wireshark`:
 
-![](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/pic/01.png)
+![](https://raw.githubusercontent.com/netology-code/ibnet-homeworks/master/02_intro/pic/01.png)
 
 2\. Вас попросят ввести пароль вашего пользователя для подтверждения (`kali`, если вы скачивали OVA с официального сайта):
 
-![](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/pic/02.png)
+![](https://raw.githubusercontent.com/netology-code/ibnet-homeworks/master/02_intro/pic/02.png)
 
 3\. В запустившемся окне вам необходимо выбрать интерфейс `Loopback: lo`
 
-![](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/pic/03.png)
+![](https://raw.githubusercontent.com/netology-code/ibnet-homeworks/master/02_intro/pic/03.png)
 
 4\. Сохраните файлы в каком-либо каталоге (например, в `Downloads`):
-1. [server-x64.bin](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/assets/server-x64.bin)
-1. [text-x64.bin](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/assets/text-x64.bin)
-1. [task-x64.bin](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/assets/task-x64.bin)
+1. [server-x64.bin](https://raw.github.com/netology-code/ibnet-homeworks/tree/master/02_intro/assets/server-x64.bin)
+1. [text-x64.bin](https://raw.github.com/netology-code/ibnet-homeworks/tree/master/02_intro/assets/text-x64.bin)
+1. [task-x64.bin](https://raw.github.com/netology-code/ibnet-homeworks/tree/master/02_intro/assets/task-x64.bin)
 
 4\. Откройте терминал в данном каталоге (см. [руководство по терминалу](../terminal), открывается аналогично Ubuntu):
 
@@ -35,15 +35,15 @@
 
 8\. В окне Wireshark вы должны увидеть следующее:
 
-![](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/pic/08.png)
+![](https://raw.githubusercontent.com/netology-code/ibnet-homeworks/master/02_intro/pic/08.png)
 
 9\. Щёлкните правой кнопкой мыши на первой строке и выберите опции как на скриншоте:
 
-![](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/pic/09.png)
+![](https://raw.githubusercontent.com/netology-code/ibnet-homeworks/master/02_intro/pic/09.png)
 
 10\. Вы увидите взаимодействие между клиентом и сервером в текстовом виде в кодировке ASCII:
 
-![](https://github.com/netology-code/ibnet-homeworks/tree/master/02_intro/pic/10.png)
+![](https://raw.githubusercontent.com/netology-code/ibnet-homeworks/master/02_intro/pic/10.png)
 
 11\. Запустите целевой клиент во второй вкладке: `./task-x64.bin`
 
