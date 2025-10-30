@@ -58,46 +58,46 @@
 
 1\. Подготовка файлов.
 
-![scripts downloading](image.png)
+![scripts downloading](images/image.png)
 
 2\. Запуск сервера 
 
-![server](image-1.png)
+![server](images/image-1.png)
 
 3\. Запрос к серверу
 
-![client](image-2.png)
+![client](images/image-2.png)
 
 4\. Список пакетов в Wireshark 
 
-![Wireshark](image-3.png)
+![Wireshark](images/image-3.png)
 
 5\. Перехваченное текстовое сообщение
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 6\. Результат перехвата сообщения от task-x64.bin
 
-![heshed](image-5.png)
+![heshed](images/image-5.png)
 
 Проблема в том, что SHA-256 должен быть 64 hex, а я получил 63 символа.
 
-![crackstation](image-6.png)
+![crackstation](images/image-6.png)
 
 ВОзможно выьащить хэш в формате ASCII
 
-![ASCII](image-8.png)
+![ASCII](images/image-8.png)
 
 Декодируем в текст
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 </details>
 
 CrackStation подтверждает тип хэширования SHA-256. Захэшированное слово "IPv6"
 
-![crackStation](image-7.png)
+![crackStation](images/image-7.png)
 
 Проверка. Хэш получился тот же.
 
-![test](image-10.png)
+![test](images/image-10.png)
