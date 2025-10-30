@@ -76,4 +76,28 @@
 
 ![alt text](image-4.png)
 
+6\. Результат перехвата сообщения от task-x64.bin
+
+![heshed](image-5.png)
+
+Проблема в том, что SHA-256 должен быть 64 hex, а я получил 63 символа.
+
+![crackstation](image-6.png)
+
+ВОзможно выьащить хэш в формате ASCII
+
+![ASCII](image-8.png)
+
+Декодируем в текст
+
+![alt text](image-9.png)
+
 </details>
+
+CrackStation подтверждает тип хэширования SHA-256. Захэшированное слово "IPv6"
+
+![crackStation](image-7.png)
+
+Проверка. Хэш получился тот же.
+
+![test](image-10.png)
