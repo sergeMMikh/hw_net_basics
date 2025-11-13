@@ -77,4 +77,8 @@ It is possible to extract the hash in ASCII format and convert it to readable te
 
 CrackStation confirms the hash type as SHA-256. The hashed word is **"IPv6"**.
 
+![crackStation](images/image-7.png)
+
 Verification: the hash matches.
+
+![test](images/image-10.png)
