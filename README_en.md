@@ -69,6 +69,8 @@ Analyze the network interaction of the target client with the server. The client
 
 6. Intercepted message from `task-x64.bin`.
 
+</details>
+
 The issue encountered: a proper SHA-256 hash must be 64 hexadecimal characters, but the captured one was only 63 characters long.
 
 It is possible to extract the hash in ASCII format and convert it to readable text.
@@ -76,6 +78,3 @@ It is possible to extract the hash in ASCII format and convert it to readable te
 CrackStation confirms the hash type as SHA-256. The hashed word is **"IPv6"**.
 
 Verification: the hash matches.
-
-</details>
-
